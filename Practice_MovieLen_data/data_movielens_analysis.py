@@ -3,13 +3,12 @@ from mxnet import gluon, np
 import os
 import pandas as pd
 
-
 #@save
 # d2l.DATA_HUB['ml-100k'] = (
 #     'http://files.grouplens.org/datasets/movielens/ml-100k.zip',
 #     'cd4dcac4241c8a4ad7badc7ca635da8a69dddb83')
 
-#@save
+#@read information data of u.data
 def read_data_ml100k():
     data_dir = "/home/datdinh/Desktop/thuctap/Recommendation-System/data/ml-100k"
     names = ['user_id', 'item_id', 'rating', 'timestamp']
